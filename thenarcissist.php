@@ -15,7 +15,7 @@ function narcissistic(int $value): bool {
   $sum = 0;
   $result = 0;
   
-  // Loip through Array to apply Narcissistic number formula
+  // Loop through Array to apply Narcissistic number formula
   for ($i = 0; $i < strlen($value); $i++) {
      $result = pow($arr_val[$i], strlen($value));
      $sum = $sum + $result;
